@@ -1,0 +1,147 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: #494949;
+    color: #ffff;
+}
+
+.cabecera {
+    width: 100%;
+    height: 70px;
+    background: #333333;
+}
+
+#logo-Tauron {
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+a:hover {
+    opacity: .9;
+}
+
+a {
+    text-decoration: none;
+}
+
+#enlace-cabecera-inicio {
+    text-decoration: none;
+    color: #ffff;
+    font-family: fantasy;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 68%;
+    font-size: 20px;
+}
+
+#enlace-cabecera-momentos {
+    color: #ffff;
+    font-family: fantasy;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 78%;
+    font-size: 20px;
+}
+
+.container-contenido {
+    text-align: center;
+}
+
+#titulo-index {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 70px;
+
+}
+
+#titulo-index:hover {
+    color: green;
+}
+
+#aviso-final {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.container-tendencias {
+    border: solid;
+    border-color: red;
+}
+
+.momentos-anime-lista {
+    width: 55%;
+    height: 700px;
+    border: solid;
+    position: absolute;
+    left: 23%;
+}
+
+#aviso-final2 {
+    margin-top: 750px;
+    margin-bottom: 50px;
+}
+
+#title-animes {
+    font-size: 40px;
+    font-family: fantasy;
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+#imagen-lista-naruto {
+    position: absolute;
+    left: 2%;
+}
+
+#title-naruto-lista {
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    color: #ffff;
+}
+
+#linea {
+    position: relative;
+    top: 12%;
+}
+
+#imagen-lista-dragon-ball {
+    position: absolute;
+    left: 2%;
+    top: 26%;
+}
+
+#title-dragon-ball-lista {
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    color: #ffff;
+    top: 27%;
+}
+
+#linea2 {
+    position: relative;
+    top: 25%;
+}
+
+#imagen-lista-one-piece {
+    position: absolute;
+    left: 2%;
+    top: 40.5%;
+}
+
+#title-one-piece-lista {
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    color: #ffff;
+    top: 41.5%;
+}
+
+#linea3 {
+    position: relative;
+    top: 38%;
+}

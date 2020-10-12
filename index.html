@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="pagina, secreto, momentos, anime">
+    <title>Momentos Anime</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="shortcut icon" href="mangekyo-sharingan.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <script>
+        /**
+        * Array con las imagenes que se iran mostrando en la web
+        */
+        var imagenes=new Array(
+            'madara-uchiha-4k.jpg',
+            'itachi-sasuke-4k.jpg'
+        );
+     
+        /**
+        * Funcion para cambiar la imagen
+        */
+        function rotarImagenes()
+        {
+            // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+            var index=Math.floor((Math.random()*imagenes.length));
+     
+            // cambiamos la imagen
+            document.getElementById("imagen").src=imagenes[index];
+        }
+     
+        /**
+        * Función que se ejecuta una vez cargada la página
+        */
+        onload=function()
+        {
+            // Cargamos una imagen aleatoria
+            rotarImagenes();
+     
+            // Indicamos que cada 5 segundos cambie la imagen
+            setInterval(rotarImagenes,5000);
+        }
+    </script>
+
+</head>
+<body>
+    <div class="container">
+       <header class="cabecera">
+           <a href="https://www.youtube.com/channel/UCA2ZALM3a2a-U4ouXOyXT8Q?view_as=subscriber" target="_blank"> <img src="logo.jpg" title="TauronRX" width="60px" id="logo-Tauron"> </a>
+           <a href="index.html" id="enlace-cabecera-inicio">Inicio</a>
+           <a href="momentos-todos.html" id="enlace-cabecera-momentos">Momentos</a>
+       </header>
+
+       <div class="container-contenido">
+          <h1 id="titulo-index">Momentos Anime</h1>
+          <img src="" width="400px" id="imagen">
+
+          <p>¿Por qué esta página?</p>
+          <p>Está página esta creada para recopilar los mejores momentos de los anime, obviamente esta página esta creada por la opinión del creador,<br> es decir puede que algunos de los momentos que se encuentran en esta página a ti no te gusten. Así que por favor respeta la opinión de los demás.</p>
+          <p>¿Quién a creado esta página?</p>
+          <p>Esta página a sido creada como prueba por TauronRX, esta persona esta aprendiendo a programar y tiene un canal de youtube, en el que sube lo que va aprendiendo.</p>
+          
+          <div class="container-tendencias">
+             <a href="naruto.html"> <img src="naruto.jpg" title="naruto" width="200px"> </a>
+             <a href="dragon-ball.html"> <img src="dragon-ball-tendencias.jpg" title="dragon ball" width="220px"> </a>
+             <a href="one-piece.html"> <img src="one-piece-tendencias.jpg" title="One Piece" width="200px"> </a>
+          </div>
+          
+          <p id="aviso-final">Aviso: esta página está en desarrollo, se irán añadiendo animes con el tiempo.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
